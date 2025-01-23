@@ -113,27 +113,52 @@ nav,ul,a{
   border: none;
 }
 @media screen and (max-width:567px) {
+  .navbar {
+    display: inline-block;
+   
+}
+.SCHOOL{
+  text-align: end;
+}
+  .home-link ,a{
+    display: none;
+  }
   .banner{
   flex-direction: column-reverse;
   }
+  .main-btn{
+    display: none;
+  }
   .main-title{
-    padding: 20px;
+    padding: 10px;
+    margin-left: 5px;
     text-align: center;
    font-size: 2rem;
+   max-width: 320px;
 
   }
   .title-descrpstion{
-    padding: 20px;
+    padding: 10px;
     max-width: 400px;
-    text-align: center;
+   margin-left: 5px;
+   text-align: center;
+   max-width: 335px;
     margin-top: 5px;
   }
   .img-2{
     /* margin: 0  auto; */
- 
-    height: 90%;
-    width:100%;
+   margin-left: 25px;
+    height:370px;
+    width:300px;
     0%;
+  }
+  .Enroll-btn{
+    text-align: start;
+    margin-left: 95px;
+    
+    
+    
+    px;
   }
 }
 
@@ -256,10 +281,34 @@ color:#8700FF ;
 
   }
   .section-title-main{
-    max-width: 400px;
+    max-width: 350px;
     font-size: 1.20rem;
     font-weight: bold;
     text-align: center;
+  }
+  .main-des{
+    font-size: 10px;
+    max-width: 193px;
+    text-align: center;
+    padding-left: 50px;
+  }
+  .mai-title{
+    font-size: 16px;
+    max-width: 142px;
+    padding-left: 60px;
+  }
+  .main-img{
+    max-width: 92px;
+    max-height: 92px;
+  }
+  .btn-1 ,.btn-3 ,.btn-3{
+    max-width: 50px;
+    max-height: 50px;
+    text-align:center;
+  }
+  .section-crad{
+    max-width: 300px;
+    max-height: 350px;
   }
 }
 
@@ -447,5 +496,184 @@ color:#8700FF ;
   
   max-width: 198px;
  padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Kids{
+  display: flex;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  gap: 200px;
+  background-color: #84adc0;
+  margin-top: 10px;
+  padding: 100px 80px 0px 80px ;
+ 
+}
+
+
+.img-link{
+  display: flex;
+  gap: 5px;
+  max-width: 192px;
+}
+.Education{
+  max-width: 399px;
+  margin-left: 150px;
+}
+.About-titel{
+  max-width:200px;
+  margin-top: 40px;
+  
+}
+.h5{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 1.27rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 22px;
+ 
+}
+.footer-link{
+  color: #f8f8f8;
+  font-size:1.20rem ;
+  font-weight: 400;
+  text-align: start; 
+  padding: 20px;
+  
+}
+.h-3{
+  max-width: 150px;
+  font-size: 2.29rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.Kids,img {
+  height: 60%;
+  margin-bottom: 20px;
+}
+.Pizza{
+  font-size: 1.20rem;
+  font-weight: 400;
+  max-width: 350px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#Home{
+  padding-bottom: 15px;
+ 
+}
+#About{
+padding-bottom: 15px;
+}
+#Facilities{
+padding-bottom: 15px;
+}
+#Admission{
+padding-bottom: 15px;
+}
+.h4{
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+.h4{
+  margin-top: 60px;
+  padding-left: 55px;
+}
+.img-link{
+ text-align: center;
+ max-width: 100px;
+ padding-right: 10px;
+}
+.icons{
+  max-width: 177px;
+}
+
+
+@media screen and (max-width:576px) {
+  .main-wrk{
+    display: none;
+  }
+  .class-section{
+    margin-left:0px;
+    margin-right: 400px;
+    display:grid ;
+    grid-template-columns: repeat(2,1fr);
+  }
+  #div-container-1{
+    max-width: 140px;
+    max-height: 180px;
+    background-size: 140px;
+    gap: 5px;
+   
+  }#div-container-2{
+    max-width: 140px;
+    max-height: 180px;
+    background-size: 140px;
+    gap: 5px;
+   
+  }#div-container-3{
+    max-width: 140px;
+    max-height: 180px;
+    background-size: 140px;
+    gap: 5px;
+  }#div-container-4{
+    max-width: 140px;
+    max-height: 180px;
+    background-size: 140px;
+    gap: 5px;
+  }
+  .class-title{
+    max-width: 117px;
+    max-height: 34px;
+    font-size: 9px;
+
+  }
+  .butt-1{
+    font-size: 9px;
+    margin-top: 85px;
+    margin-left: 20px;
+  }.butt-2{
+    font-size: 9px;
+    margin-top: 85px;
+    margin-left: 20px;
+  }.butt-3{
+    font-size: 9px;
+    margin-top: 85px;
+    margin-left: 20px;
+  }.butt-4{
+    font-size: 9px;
+    margin-top: 85px;
+    margin-left: 20px;
+  }
+  .main-titl{
+    font-size: 26px;
+    text-align: center;
+  }
+  .grid-section{
+    margin-left: 10px;
+  }
+  .main-desc{
+    margin-right: 30px;
+  }
+  .footer{
+    display: none;
+  }
+  
 }
 
